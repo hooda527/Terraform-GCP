@@ -1,97 +1,42 @@
+# Terraform-GCP
+Terraform projects on Google Cloud Platform
 # ☁️ Terraform GCP Infrastructure
 
-This project creates a Google Cloud VM and VPC using Terraform.
+This project demonstrates how to deploy infrastructure on Google Cloud Platform using Terraform.
 
-## 🚀 Features
+## 🚀 Resources Created
 
+- VPC Network
 - Compute Engine VM
-- Custom VPC
-- Variables
 - Outputs
-- Secure configuration
-- Beginner Friendly
 
----
-
-## 📋 Prerequisites
+## 🛠 Technologies
 
 - Terraform
-- Google Cloud SDK
-- Google Cloud Project
-- Billing Enabled
+- Google Cloud Platform
+- Compute Engine
+- VPC
 
----
-
-## 📥 Clone Repository
-
-```bash
-git clone https://github.com/hooda527/Terraform-GCP.git
-cd Terraform-GCP
-```
-
----
-
-## ⚙️ Setup
-
-Copy the example file:
-
-```bash
-cp terraform.tfvars.example terraform.tfvars
-```
-
-Edit:
-
-```hcl
-project_id = "YOUR_PROJECT_ID"
-```
-
-Authenticate:
-
-```bash
-gcloud auth application-default login
-```
-
-Initialize:
+## ▶️ Commands
 
 ```bash
 terraform init
-```
-
-Plan:
-
-```bash
+terraform validate
 terraform plan
-```
-
-Apply:
-
-```bash
 terraform apply
 ```
 
-Destroy:
+## 📷 Architecture
 
-```bash
-terraform destroy
 ```
-
----
-
-## 📂 Project Structure
-
-```text
-provider.tf
-main.tf
-variables.tf
-outputs.tf
-terraform.tfvars.example
-README.md
+Internet
+    |
+    |
+Compute Engine VM
+    |
+Terraform VPC
 ```
-
----
 
 ## 👨‍💻 Author
 
-**Ehshanul Hooda**
-
-Cloud • DevOps • Terraform • Google Cloud
+Ehshanul Hooda

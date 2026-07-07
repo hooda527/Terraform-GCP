@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Terraform
 
 .terraform/
@@ -35,3 +36,10 @@ terraform.tfvars
 # VS Code
 
 .vscode/
+=======
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+>>>>>>> a50bc3b268c3262e1ffc0da6a268e3fcfe247326
