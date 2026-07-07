@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 terraform {
   required_providers {
     google = {
@@ -10,13 +7,24 @@ terraform {
   }
 }
 
->>>>>>> a50bc3b268c3262e1ffc0da6a268e3fcfe247326
 provider "google" {
   project = var.project_id
   region  = var.region
   zone    = var.zone
-<<<<<<< HEAD
 }
-=======
+
+// Declare variables used by the provider
+variable "project_id" {
+  description = "GCP project ID"
+  type        = string
 }
->>>>>>> a50bc3b268c3262e1ffc0da6a268e3fcfe247326
+
+variable "region" {
+  description = "GCP region"
+  type        = string
+}
+
+variable "zone" {
+  description = "GCP zone"
+  type        = string
+}
