@@ -1,18 +1,17 @@
 # Terraform
-
 .terraform/
 *.tfstate
 *.tfstate.*
-terraform.tfvars
 .terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+*.tfvars.json
 crash.log
 
 # Credentials
-
 *.json
 *.pem
 *.key
 
 # VS Code
-
 .vscode/
