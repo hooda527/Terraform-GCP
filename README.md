@@ -1,3 +1,14 @@
+![Terraform](https://img.shields.io/badge/Terraform-v1.15-blue?logo=terraform)
+
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-GCP-blue?logo=googlecloud)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![GitHub stars](https://img.shields.io/github/stars/hooda527/Terraform-GCP)
+
+![GitHub forks](https://img.shields.io/github/forks/hooda527/Terraform-GCP)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/hooda527/Terraform-GCP)
 <div align="center">
 
 # ☁️ Terraform GCP Infrastructure
