@@ -4,7 +4,6 @@ provider "google" {
   zone    = var.zone
 }
 
-// Declare variables used by the provider
 variable "project_id" {
   description = "GCP project ID"
   type        = string
