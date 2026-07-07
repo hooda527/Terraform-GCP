@@ -207,9 +207,7 @@ MIT License
 
 ## Ehshanul Hooda
 
-Cloud Engineer | DevOps | Terraform | Google Cloud
-
-GitHub
+B.Tech (AI & Data Science) | Cloud Computing Enthusiast | Terraform | Google Cloud
 
 https://github.com/hooda527
 
