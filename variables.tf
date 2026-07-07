@@ -1,28 +1,28 @@
 variable "project_id" {
-  description = "GCP project ID"
+  description = "Google Cloud Project ID"
   type        = string
 }
 
 variable "region" {
-  description = "GCP region"
+  description = "Google Cloud Region"
   type        = string
   default     = "asia-south1"
 }
 
 variable "zone" {
-  description = "GCP zone"
+  description = "Google Cloud Zone"
   type        = string
   default     = "asia-south1-a"
 }
 
 variable "instance_name" {
-  description = "Name of the VM instance"
+  description = "VM Instance Name"
   type        = string
   default     = "terraform-vm"
 }
 
 variable "machine_type" {
-  description = "Machine type for the VM"
+  description = "Machine Type"
   type        = string
   default     = "e2-micro"
 }

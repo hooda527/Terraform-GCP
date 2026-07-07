@@ -4,14 +4,12 @@ on:
   push:
     branches:
       - main
-
   pull_request:
     branches:
       - main
 
 jobs:
   terraform:
-    name: Terraform Validation
     runs-on: ubuntu-latest
 
     steps:
@@ -29,12 +27,3 @@ jobs:
 
       - name: Terraform Validate
         run: terraform validate
-
-      - name: Terraform Plan
-        run: terraform plan
-
-      - name: Terraform Apply
-        run: terraform apply -auto-approve
-
-      - name: Terraform Destroy
-        run: terraform destroy -auto-approve

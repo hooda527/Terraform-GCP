@@ -1,45 +1,18 @@
-<<<<<<< HEAD
 # Terraform
 
 .terraform/
-
 *.tfstate
-
 *.tfstate.*
-
-crash.log
-
-override.tf
-
-override.tf.json
-
-*_override.tf
-
-*_override.tf.json
-
 terraform.tfvars
-
-*.tfvars
-
-*.tfvars.json
-
 .terraform.lock.hcl
+crash.log
 
 # Credentials
 
 *.json
-
 *.pem
-
 *.key
 
 # VS Code
 
 .vscode/
-=======
-
-.terraform/
-*.tfstate
-*.tfstate.backup
-terraform.tfvars
->>>>>>> a50bc3b268c3262e1ffc0da6a268e3fcfe247326
