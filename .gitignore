@@ -1,0 +1,37 @@
+# Terraform
+
+.terraform/
+
+*.tfstate
+
+*.tfstate.*
+
+crash.log
+
+override.tf
+
+override.tf.json
+
+*_override.tf
+
+*_override.tf.json
+
+terraform.tfvars
+
+*.tfvars
+
+*.tfvars.json
+
+.terraform.lock.hcl
+
+# Credentials
+
+*.json
+
+*.pem
+
+*.key
+
+# VS Code
+
+.vscode/
