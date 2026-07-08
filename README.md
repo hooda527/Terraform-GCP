@@ -1,216 +1,76 @@
+# Terraform GCP Infrastructure
+
 ![Terraform](https://img.shields.io/badge/Terraform-v1.15-blue?logo=terraform)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-GCP-blue?logo=googlecloud)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Passing-brightgreen?logo=githubactions)
 
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-GCP-blue?logo=googlecloud)
+## Overview
 
-![License](https://img.shields.io/badge/License-MIT-green)
+This project provisions Google Cloud Platform (GCP) infrastructure using Terraform.
 
-![GitHub stars](https://img.shields.io/github/stars/hooda527/Terraform-GCP)
-
-![GitHub forks](https://img.shields.io/github/forks/hooda527/Terraform-GCP)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/hooda527/Terraform-GCP)
-<div align="center">
-
-# ☁️ Terraform GCP Infrastructure
-
-### Build and Manage Google Cloud Infrastructure using Terraform
-
-<p>
-<img src="https://img.shields.io/badge/Terraform-v1.15-blue?logo=terraform">
-<img src="https://img.shields.io/badge/Google%20Cloud-GCP-blue?logo=googlecloud">
-<img src="https://img.shields.io/badge/IaC-Infrastructure%20as%20Code-orange">
-<img src="https://img.shields.io/badge/License-MIT-green">
-</p>
-
-</div>
+It demonstrates Infrastructure as Code (IaC) best practices with automated validation through GitHub Actions.
 
 ---
 
-# 📖 Overview
+## Features
 
-This project demonstrates how to provision infrastructure on **Google Cloud Platform (GCP)** using **Terraform**.
-
-It follows Infrastructure as Code (IaC) best practices and creates cloud resources in a reusable and scalable way.
-
----
-
-# 🚀 Features
-
-- ✅ Google Cloud Provider
-- ✅ Compute Engine VM
-- ✅ Custom VPC
-- ✅ Variables Support
-- ✅ Outputs
-- ✅ Beginner Friendly
-- ✅ Infrastructure as Code
-- ✅ Secure Configuration
+- Google Cloud Provider
+- Compute Engine VM
+- Custom VPC Network
+- Terraform Variables
+- Terraform Outputs
+- GitHub Actions CI
+- Infrastructure as Code
 
 ---
 
-# 🛠 Technologies Used
+## Project Structure
 
-- Terraform
-- Google Cloud Platform
-- Compute Engine
-- VPC Network
-- Git
-- GitHub
-- VS Code
-
----
-
-# 📂 Project Structure
-
-```text
-Terraform-GCP
-│
-├── .gitignore
-├── LICENSE
-├── README.md
-├── versions.tf
+```
+.
+├── .github/
+│   └── workflows/
+│       └── terraform.yml
+├── main.tf
 ├── provider.tf
 ├── variables.tf
-├── main.tf
 ├── outputs.tf
-└── terraform.tfvars.example
+├── versions.tf
+├── terraform.tfvars.example
+└── README.md
 ```
 
 ---
 
-# ⚙️ Prerequisites
+## Requirements
 
-Before using this project install:
-
-- Terraform
+- Terraform >= 1.5
 - Google Cloud SDK
-- Git
-- VS Code
+- Google Cloud Project
 
 ---
 
-# 📥 Clone Repository
-
-```bash
-git clone https://github.com/hooda527/Terraform-GCP.git
-```
-
-```bash
-cd Terraform-GCP
-```
-
----
-
-# 🔑 Authentication
-
-```bash
-gcloud auth application-default login
-```
-
----
-
-# ⚙️ Configure Variables
-
-Create a file named
-
-```
-terraform.tfvars
-```
-
-Example
-
-```hcl
-project_id = "YOUR_PROJECT_ID"
-
-region = "asia-south1"
-
-zone = "asia-south1-a"
-
-instance_name = "terraform-vm"
-
-machine_type = "e2-micro"
-```
-
----
-
-# ▶️ Run Terraform
-
-Initialize
+## Usage
 
 ```bash
 terraform init
-```
-
-Validate
-
-```bash
 terraform validate
-```
-
-Plan
-
-```bash
 terraform plan
-```
-
-Apply
-
-```bash
 terraform apply
 ```
 
-Destroy
+---
 
-```bash
-terraform destroy
-```
+## GitHub Actions
+
+Every push automatically performs:
+
+- Terraform Format Check
+- Terraform Initialization
+- Terraform Validation
 
 ---
 
-# 🔒 Security
+## Author
 
-Never upload
-
-- terraform.tfvars
-- Service Account Keys
-- API Keys
-- Credentials
-
----
-
-# 📚 Learning Objectives
-
-This project helps you learn
-
-- Infrastructure as Code
-- Terraform Basics
-- Google Cloud
-- Cloud Automation
-- DevOps Fundamentals
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Fork the repository and create a Pull Request.
-
----
-
-# 📜 License
-
-MIT License
-
----
-
-# 👨‍💻 Author
-
-## Ehshanul Hooda
-
-B.Tech (AI & Data Science) | Cloud Computing Enthusiast | Terraform | Google Cloud
-
-https://github.com/hooda527
-
----
-
-⭐ If you like this project, don't forget to Star the repository.
+**Ehshanul Hooda**
